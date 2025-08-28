@@ -1,6 +1,8 @@
 // Learning C++ 
 // Exercise 00_03
-// Using the exercise files on GitHub, by Eduardo Corpeño 
+// Using the exercise files on GitHub, by Eduardo Corpeño
+
+// This is a test comment for pushing to GitHub
 
 #include <iostream>
 
