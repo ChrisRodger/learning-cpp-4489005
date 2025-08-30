@@ -4,8 +4,24 @@
 
 #include <iostream>
 
+/*
+Multi
+Line
+Comment
+*/
+
+// multiple variables can be declared on the same line
+// a and b are global variables available to all parts of the code
+int a, b= 5;
+
 int main(){
-    std::cout << "Hi There!" << std::endl;
+    bool my_flag;
+    a = 7; // assigning a value to the global variable a
+    my_flag = false; // assigning a vale to the local variable my_flag
+
+    std::cout << "a = " << a << std::endl;
+    std::cout << "b = " << b << std::endl;
+    std::cout << "flag = " << my_flag << std::endl;
     
     std::cout << std::endl << std::endl;
     return (0);
