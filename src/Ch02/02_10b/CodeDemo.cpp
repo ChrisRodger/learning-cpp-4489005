@@ -18,6 +18,8 @@ int main(){
     std::cout << " int32: " << sgn << std::endl;
     std::cout << "uint32: " << unsgn << std::endl;
 
+    std::cout << "casting uint32 to int32: " << (int32_t) unsgn << std::endl;
+
     std::cout << std::endl << std::endl;
     return (0);
 }
