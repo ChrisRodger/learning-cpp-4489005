@@ -6,7 +6,7 @@
 #include <string>
 #include <cstdint>
 
-#define CAPACITY 5000 // act like find and replace, don't end with semicolon
+#define CAPACITY 5000 // act like find and replace, don't end with semicolon, known as a macro
 #define DEBUG //Useful for debugging using ifdef preprocessor
 
 int main(){
